@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>surpresa!</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        background-color: #ffcccb;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .painel
+    {
+        width: 90%;
+        max-width: 600px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        background-color: #ffcccb; 
+    }
+    .titulo {
+        font-size: 2.5em;
+        color: black;
+        margin: 0;
+    }
+    .message
+    {
+        background-color: #d8b4b4;
+        color: #000;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    h1
+    {
+        font-size: 3em;
+        margin: 0;
+    }
+    p
+    {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    
+</style>
+
+<body>
+    <header>
+        <h1 class="titulo"></h1>
+    </header>
+    <div class="painel"> 
+        <video autoplay muted loop controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+       <div class="message">
+        <h1> Eu te amo!</h1>
+        <p>Você é a luz da minha vida e sempre será especial para mim.</p>
+       </div>
+    </div>
+</body>
+</html>
